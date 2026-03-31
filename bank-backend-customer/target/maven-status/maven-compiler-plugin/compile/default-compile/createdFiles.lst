@@ -1,6 +1,0 @@
-com\hancu\bankproject\customer\controller\CustomerController.class
-com\hancu\bankproject\customer\service\CustomerService.class
-com\hancu\bankproject\customer\domain\Customer.class
-com\hancu\bankproject\customer\domain\CustomerType.class
-com\hancu\bankproject\customer\mapper\CustomerMapper.class
-com\hancu\bankproject\customer\service\impl\CustomerServiceImpl.class
