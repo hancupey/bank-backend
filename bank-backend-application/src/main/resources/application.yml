@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: bank-backend
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/bank_db?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-field: enabled
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+
+server:
+  port: 8080
